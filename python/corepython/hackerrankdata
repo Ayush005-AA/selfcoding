@@ -1,0 +1,42 @@
+# def is_leap(year):
+    
+#     leap = False
+#     if year %4 ==0:
+#         leap=True
+#     if year %100 == 0:
+#         leap = False
+        
+#     if year%400 ==0:
+#         leap = True
+        
+
+    
+#     return leap
+
+# year = int(input())
+# print(is_leap(year))
+
+
+
+
+x = 1
+y = 1
+z  = 2
+n = 3
+b =[]
+
+for i in range(x+1):
+    for j in range(y+1):
+        for k in range(z+1):
+            if (i+j+k!=n):
+            
+             print(i,j,k)
+
+
+
+a = [[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if i+j+k!=n ]
+print(a)
+
+            
+    
+    
